@@ -26,7 +26,7 @@ public class Client {
             startClient(writer, reader, scanner);
         }
     }
-    
+
     public static void startClient(BufferedWriter writer, BufferedReader reader, Scanner scanner) throws IOException {
         MessageSender messageSender = new MessageSender(writer);
 
